@@ -30,10 +30,9 @@ Emoboost is an intelligent application that analyzes your mood through typing pa
 - Installation
 - Ensure you have Python 3.8+ installed
 
-##Install required packages:
+## Install required packages:
 
-- bash
-pip install flet screen-brightness-control plyer opencv-python
+- **bash** :"pip install flet screen-brightness-control plyer opencv-python"
 ## Usage
 - Run the application:
 
