@@ -25,10 +25,10 @@ def randomise_typing_sentence():
 
 # Playlist web links
 mood_playlists = {
-    "Stressed": "https://open.spotify.com/playlist/37i9dQZF1DWZqd5JICpfoA",
+    "Stressed": "https://open.spotify.com/playlist/37i9dQZF1DWXe9gFZP0gtP",
     "Tired": "https://open.spotify.com/playlist/37i9dQZF1DX4dyzvuaRJ0n",
-    "Focused": "https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS",
-    "Normal": "https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M"
+    "Focused": "https://open.spotify.com/playlist/2VeZCFG2ufqcDuMGJNrcVP",
+    
 }
 
 def main(page: ft.Page):
@@ -177,7 +177,7 @@ def main(page: ft.Page):
             baseline_wpm = wpm; baseline_error_rate = error_rate if error_rate > 0 else 1.0; mood = "Calibrated"
             print(f"CALIBRATION COMPLETE: Baseline WPM={baseline_wpm:.1f}, Baseline Error Rate={baseline_error_rate:.1f}%")
         else:
-            is_slower = wpm < baseline_wpm * 0.75; is_faster = wpm > baseline_wpm * 1.25
+            is_slower = wpm < baseline_wpm * 0.75; is_faster = wpm > baseline_wpm * 0.50
             is_sloppy = error_rate > baseline_error_rate * 2 and error_rate > 5
             is_accurate = error_rate < baseline_error_rate * 0.7
             if is_slower and is_sloppy: mood = "Tired"
