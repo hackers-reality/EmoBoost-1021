@@ -1,5 +1,5 @@
 # EmoBoost-1021
-##Emoboost - Mood-Based Productivity Enhancer
+## Emoboost - Mood-Based Productivity Enhancer
 Overview
 Emoboost is an intelligent application that analyzes your mood through typing patterns and facial recognition, then automatically adjusts your environment to optimize productivity and well-being. It can dim your screen, enable Do Not Disturb mode, and suggest playlists based on your detected emotional state.
 
