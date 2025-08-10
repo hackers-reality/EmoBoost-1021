@@ -25,7 +25,7 @@ def randomise_typing_sentence():
 
 # Playlist web links
 mood_playlists = {
-    "Stressed": "https://open.spotify.com/playlist/37i9dQZF1DWXe9gFZP0gtP",
+    "Stressed": "https://open.spotify.com/playlist/37i9dQZF1DWXe9gFZP0gtP?si=D_5dDmXpTtuM8JE4dRQ-4w",
     "Tired": "https://open.spotify.com/playlist/37i9dQZF1DX4dyzvuaRJ0n",
     "Focused": "https://open.spotify.com/playlist/2VeZCFG2ufqcDuMGJNrcVP",
     
@@ -313,3 +313,4 @@ def main(page: ft.Page):
         page.go("/")
 
 ft.app(target=main)
+
